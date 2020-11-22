@@ -1,3 +1,12 @@
+
 .container {
-    color: rgb(83, 121, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 20px);
+    font-size: 5em;
+}
+
+.container>h1 {
+    color: rgb(71, 153, 111);
 }
